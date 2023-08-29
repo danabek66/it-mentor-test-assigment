@@ -1,76 +1,75 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-  }
-  
-  .calculator {
-    background-color: skyblue;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  #display {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    background-color: rgba(133, 180, 199, 0.896);
-  }
-  
-  .buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-  }
-  
-  button {
-    padding: 10px;
-    font-size: 18px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .number {
-    background-color: #e0e0e0;
-  }
-  
-  .operator {
-    background-color: #fff;
-    font-weight: bold;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
 
-  .equalOperator {
-    background-color: rgb(212, 230, 54);
-  }
-  
-  .clear {
-    background-color: #ff9999;
-    color: #fff;
-    font-weight: bold;
-    position: relative;
-    width: 113px;
-    height: 41px;
-    right: auto;
-    left: 0;
-  }
+.calculator {
+  background-color: skyblue;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-  .oneLine {
-    display: flex;
-    gap: 8px;
+#display {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: rgba(133, 180, 199, 0.896);
+}
 
-  }
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+.number {
+  background-color: #e0e0e0;
+}
+
+.operator {
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.equalOperator {
+  background-color: rgb(212, 230, 54);
+}
+
+.clear {
+  background-color: #ff9999;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  width: 113px;
+  height: 41px;
+  right: auto;
+  left: 0;
+}
+
+.oneLine {
+  display: flex;
+  gap: 8px;
+}
